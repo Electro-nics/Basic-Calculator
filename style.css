@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    /* background-image: url('./background.jpg'); */
+
+}
+.text-container{
+    text-align: center;
+    background-color:  #99b0b0;;
+}
+.max-auto{
+    margin: auto;
+}
+.row{
+    text-align: center;
+    margin-bottom: 10px;
+    /* background-color: #cbc3c3; */
+    background-color: #cad0d3;
+}
+.button{
+    display: inline-block;
+    padding-right: 22px;
+    margin-right: 7px;
+    width: 41px;
+    border: 2px solid black;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+    font-weight: bold;
+    height: 39px;
+    opacity: none;
+}
+.bg-col{
+     background-color: #cbc3c3;
+    opacity: none;
+}
+.bg-sym{
+    background-color: rgb(244, 160, 96);
+    border-radius: 5px;
+    opacity: none;
+}
+#zero{
+    padding-right: 80px;
+}
+.cal-input{
+    text-align: center;
+    margin-bottom: 18px;
+    background-color:#99b0b0;
+}
+.nature{
+    height: 39px;
+    width: 223px;
+    border: 5px solid black;
+    border-radius: 7px;
+    background-color: gray;
+    color: white;
+    opacity: none;
+}
+.sec-bg{
+    background-color: #cad0d3;
+    height: 240px;
+    width: 232px;
+    border: 5px solid wheat;
+    border-radius: 8px;
+    opacity: none;
+}
+.sh-brod{
+    border: 2px solid gray;
+    /* border: 2px solid gray; */
+    width: 300px;
+    /* text-align: center; */
+    margin: auto;
+    background-color: #99b0b0;
+    /* opacity: none; */
+    border-radius: 5px;
+    margin-top: 120px;
+    box-shadow: 5px 10px #888888;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
